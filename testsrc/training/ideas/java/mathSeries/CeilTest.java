@@ -29,8 +29,8 @@ public class CeilTest {
     }
     @Test
     public  void  test_Ceil_for_wholeNumber() {
-        double givenNumber = 45;
-        Assert.assertEquals(45, Ceil.getCeil(givenNumber), 0.0);
+        double givenNumber = 4;
+        Assert.assertEquals(4, Ceil.getCeil(givenNumber), 0.0);
     }
 
     }

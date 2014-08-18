@@ -31,6 +31,8 @@ public class CeilTest {
     public  void  test_Ceil_for_wholeNumber() {
         double givenNumber = 4;
         Assert.assertEquals(4, Ceil.getCeil(givenNumber), 0.0);
+
+
     }
 
     }

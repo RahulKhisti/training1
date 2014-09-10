@@ -11,7 +11,7 @@ public class SubArray {
         {
             return array1;
         }
-        for(int index=0;index<=endIndex;index++)
+        for(int index=0;index<=endIndex-1;index++)
         {
             resultArray[index]=array1[index];
         }

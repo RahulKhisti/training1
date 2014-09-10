@@ -18,8 +18,8 @@ public class SubArrayTest {
     @Test
     public void testGetSubArray_diffLength() {
         char[] array1={'d','e','f','a','b','c','d'};
-        int endIndex= 3;
-        char[] resultArray={'d','e','f'};
+        int endIndex=2;
+        char[] resultArray={'d','e'};
 
         Assert.assertArrayEquals(resultArray, SubArray.getSubArray(array1, endIndex));
     }

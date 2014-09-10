@@ -6,7 +6,7 @@ package training.ideas.java.stringoperations;
 public class StringPyramid {
 
         public static void name_pyramid(){
-            String name = "Geetanjali";
+            String name = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
             String  namrarr = "";
             String result="";
             String space = "";
@@ -18,7 +18,7 @@ public class StringPyramid {
                 for (int j =namelength-1; j >i ; j--) {
                     space +=" ";
                 }
-                for(int x=1;x<=5;x++)
+                for(int x=1;x<=10;x++)
                 System.out.print(space + result + space);
                 System.out.print("\n");
 
@@ -35,7 +35,7 @@ public class StringPyramid {
                 for (int j = 0; j <= i ; j++) {
                     space +=" ";
                 }
-                for(int x=1;x<=5;x++)
+                for(int x=1;x<=10;x++)
                     System.out.print(space + name + space);
                 System.out.print("\n");
             }
